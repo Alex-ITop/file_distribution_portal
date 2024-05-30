@@ -1,0 +1,218 @@
+.content {
+    padding-right : 10px;
+    padding-left  : 10px;
+    padding-bottom: 50px;
+    width         : 100%;
+    text-align    : unset !important;
+    font-family   : Helvetica;
+}
+
+.top-title {
+    text-align: start;
+}
+
+.title-files {
+    color       : #22272D !important;
+    font-size   : 21px !important;
+    font-style  : normal !important;
+    font-weight : bold !important;
+    text-align  : start;
+    line-height : normal !important;
+    align-items : center;
+    display     : flex;
+    padding-left: 10px;
+}
+
+.title-files-system {
+    color       : #22272D !important;
+    font-size   : 21px !important;
+    font-style  : normal !important;
+    font-weight : 400 !important;
+    line-height : normal !important;
+    align-items : center;
+    display     : flex;
+    text-align  : start;
+    padding-left: 10px;
+}
+
+.title-company-name {
+    padding-left: 10px;
+    font-size   : 21px !important;
+    color       : #57606A !important;
+    font-style  : normal !important;
+    font-weight : 400 !important;
+}
+
+.tags-separator {
+    margin-left: 30px;
+}
+
+.gray-divider {
+    color: #979797;
+}
+
+.lime-tag {
+    background-color: #CEFF0A;
+    color           : #000000;
+    border-color    : #979797;
+
+    font-size  : 14px !important;
+    font-style : normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+
+}
+
+.commentaries-box {
+    padding-left: 10px;
+    text-align  : start;
+}
+
+.versions-tags-box {
+    padding-left: 10px;
+    text-align  : start;
+}
+
+.gray-tag {
+    background-color: #A0A0A0;
+    color           : #fff;
+    border-color    : #979797;
+    width           : 150px;
+    text-align      : center;
+
+    font-size  : 14px !important;
+    font-style : normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+
+.top-carousel {
+    display        : flex;
+    justify-content: center;
+}
+
+.carousel {
+    width: 500px;
+}
+
+.badge {
+    display        : flex;
+    justify-content: start;
+    align-items    : center;
+    width          : 100%;
+    padding-left   : 10px;
+}
+
+.divider {
+    border-color: #979797;
+    margin      : 1px
+}
+
+.dots {
+    align-items   : center;
+    text-align    : center;
+    vertical-align: middle;
+}
+
+li::marker {
+    content: '-';
+}
+
+.top-paragraph-files-commentary {
+    margin      : 10px 0px !important;
+    padding-left: 10px;
+    text-align  : start;
+}
+
+.files-divider-space {
+    padding-top: 20px;
+}
+
+.paragraph-space-commentary {
+    color      : #57606A !important;
+    font-size  : 16px !important;
+    font-style : normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+
+.paragraph-files-commentary {
+    color      : #57606A !important;
+    font-size  : 16px !important;
+    font-style : normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}
+
+.files {
+    margin-bottom: 10px;
+    text-align   : start;
+    align-items  : unset;
+    padding-left : 10px;
+}
+
+.files-deep {
+    border-bottom: solid 1px black;
+    border-color : #D6D6D6;
+
+}
+
+.a-tag {
+    background-color: #0969DA;
+    color           : #C1DEFF;
+    border-color    : #979797;
+}
+
+.d-tag {
+    background-color: #0A9E21;
+    color           : #A4EEB0;
+    border-color    : #979797;
+}
+
+.m-tag {
+    background-color: #979797;
+    color           : #F8F8F8;
+    border-color    : #C8C8C8;
+}
+
+.button {
+    display        : flex;
+    justify-content: space-between;
+    text-align     : end;
+    width          : 100%;
+    padding-top    : 30px;
+}
+
+.blue-tag {
+    background-color: #61EFF3;
+    color           : #000000;
+    border-color    : #979797;
+}
+
+.date-tag {
+    background-color: #A0A0A0;
+    color           : #fff;
+    border-color    : #979797;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-btn-default:not(:disabled):hover {
+    color       : unset;
+    border-color: unset;
+}
+
+.files-components {
+    text-align: start;
+}
+
+div:where(.css-dev-only-do-not-override-12jzuas).ant-typography,
+:where(.css-dev-only-do-not-override-12jzuas).ant-typography p {
+    margin-bottom: 0px;
+}
+
+.paragraph {
+    color      : #57606A !important;
+    font-size  : 16px !important;
+    font-style : normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+}

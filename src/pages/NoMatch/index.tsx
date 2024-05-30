@@ -1,0 +1,1 @@
+export const NoMatch = () => <p>It is 404 page</p>;

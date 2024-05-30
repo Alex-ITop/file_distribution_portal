@@ -1,0 +1,286 @@
+.body {
+    background-color: aqua;
+    
+}
+
+.container {
+	width: 100%;
+	max-width: 1000px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+	position: relative;
+    margin-right: auto;
+
+}
+
+.spaces {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.horis_line {
+    border-bottom: solid 2px #979797;
+    padding-top: 5px;
+}
+
+.spaces h1 {
+    color: black;
+    font-size: 21px;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0;
+
+}
+
+/* Пространства: дерево и область загрузки файла */
+
+/* ДЕРЕВО */
+.tree_and_edit {
+    padding-top: 10px;
+    display: flex;
+}
+
+.tree {
+    padding-left: 35px;
+    width: 30%;
+    line-height: 2;
+    white-space: nowrap;
+    color: #979797;
+}
+
+.edit_file {
+    width: 70%;
+}
+
+.vertical-row {
+    height: calc(100% - 150px);
+    position: absolute;
+    left: 305px;
+    width: 2px;
+    background: #979797;
+
+   } 
+
+
+/* Область работы с файлом */
+
+h4 {
+    color: #57606A;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.icon_title h1 {
+    color: #57606A;
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+}
+
+.icon_title h2 {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 85px;
+    margin-top: 43px;
+}
+
+p {
+    color: #57606A;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+a {
+    font-size: 14px;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.icon_title {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+
+}
+
+.icon_title img {
+    border-radius: 10px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 17px;
+    margin-bottom: 20px;
+    
+}
+
+.btn {
+    font-size: 14px;
+    height: 32px;
+    padding: 4px 20px;
+    border-radius: 6px;
+    float: left;
+    margin-top: 33px;
+    margin-left: 20px;
+}
+
+.btn_without_padd {
+    font-size: 14px;
+    height: 32px;
+    border-radius: 6px;
+    float: left;
+    margin: 5px 20px;
+    padding: 4px 20px;
+}
+
+.btn-primary {
+    font-size: 14px;
+    height: 32px;
+    padding: 4px 20px;
+    border-radius: 6px;
+    float: left;
+    margin-top: 33px;
+    margin-left: 20px;
+    background-color: #ea152f;
+}
+
+
+
+.input_title, .input_description {
+    padding: 20px 0 0 20px;
+}
+ 
+.input_title_50 {
+    width: 50%;
+} 
+
+.input_description {
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    
+}
+
+.input_title h4, .input_description h4, .text_check h4 {
+    padding: 0;
+}
+
+.input_lengh {
+    width: 300px;
+    padding: 5px 20px;
+}
+
+.edge_alignment {
+    width: 100%;
+    /* padding-right: 30px;
+    padding-left: 30px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_table {
+    padding: 5px 20px;
+    width: 100%;
+    
+}
+
+.list_table li {
+    padding: 8px 16px;
+}
+
+.list_table .btn {
+    margin: 10px;
+    margin-left: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.section {
+    position: absolute;
+    width: 100%;
+}
+
+.btns {
+    width: 100%;
+    height: 60px;
+}
+
+.illustrations {
+    padding: 5px 20px;
+    position: relative;
+    width: 100%;
+    display: flex;
+
+}
+
+.right_illustr {
+    width: 60%;
+}
+
+.left_illustr {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.left_illustr {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text_check {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manifest_check {
+    padding-left: 20px;
+}
+
+.text_check_on_siction {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manifest_btn {
+    padding-bottom: 40px;
+}
+
+.btn_last {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 0;
+    
+}
+
+.btm_bottom {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    text-align: center
+}
+
+.btns_end {
+    display: inline-block;
+    float: right;
+}
+
+.btns_end Button {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.btns_end .btn-primary {
+    background-color: #1F75CB;
+}

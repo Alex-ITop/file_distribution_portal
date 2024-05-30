@@ -1,0 +1,60 @@
+/* TODO Полностью избавиться от #root */
+#root .ant-form-item {
+  width: 100%;
+}
+
+.center-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ant-form {
+  width: 426px;
+  height:476px; 
+  border: 1px solid #979797;
+  border-radius: 10px;
+}
+
+.login-form-item-btn .ant-btn-primary {
+  font-size: 16px;
+}
+
+#root .btn-link {
+  color:black;
+  margin-top: 0px;
+}
+
+.login-form-item.password-input {
+  margin-bottom: 0px;
+}
+
+.shadow{
+   box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25); 
+   border-radius:10px;
+}
+
+.login-form-item .ant-row {
+  align-items: center;
+}
+
+.login-form-item-checkbox .ant-row {
+  align-items: flex-start;
+}
+
+.login-form-item-checkbox .checkbox {
+  margin-bottom: 10px;
+  margin-top: 70px;
+}
+
+.form-title.ant-typography {
+  text-align: center;
+  color: #ec1c24;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 46px;
+}

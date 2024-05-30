@@ -1,0 +1,11 @@
+#root .ant-form-pass {
+    width: 426px;
+    height:476px; 
+    border: 1px solid #979797;
+    border-radius: 10px;
+  }
+
+ #root .login-recovery-menu {
+    margin-bottom: 160px;
+  }
+  

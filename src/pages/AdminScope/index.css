@@ -1,0 +1,101 @@
+.content {
+    padding-right : 10px;
+    padding-left  : 10px;
+    padding-bottom: 50px;
+    width         : 100%;
+    text-align    : unset !important;
+    font-family   : Helvetica;
+}
+
+.radio {
+    background-color: #F5F5F5;
+}
+
+.img-rect {
+    width: 100%;
+}
+
+.settings {
+    width: 100%;
+}
+
+.all-contents-deep {
+    width          : 100%;
+    display        : flex;
+    justify-content: center;
+    gap            : 8px;
+}
+
+.all-contents {
+    width      : 100%;
+    align-items: unset;
+}
+
+.settings-deep {
+    text-align     : start;
+    display        : flex;
+    justify-content: space-between;
+}
+
+.top-settings {
+    display        : flex;
+    justify-content: space-between;
+    width          : 100%;
+    vertical-align : middle;
+}
+
+.divider {
+    border-color: #979797;
+    margin      : 1px;
+}
+
+.divider-div {
+    height     : 100%;
+    padding-top: 10px;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-divider-vertical {
+    height: 100%;
+}
+
+.img-div {
+    width: 100%;
+}
+
+.buttons {
+    padding-right: 20px;
+}
+
+.button-bot {
+    display        : flex;
+    justify-content: space-between;
+    text-align     : end;
+    width          : 100%;
+    padding-top    : 10px;
+}
+
+.button-left {
+    display        : flex;
+    justify-content: space-between;
+    text-align     : end;
+    width          : 100%;
+    padding-top    : 10px;
+}
+
+.blue-button {
+    background-color: #1F75CB;
+    color           : #FFFFFF;
+}
+
+.red-button {
+    background-color: #FF0000;
+    color           : #FFFFFF;
+}
+
+.paragraph {
+    text-align: start !important;
+}
+
+.test {
+    text-align: start;
+}

@@ -1,0 +1,9 @@
+.user-container .ant-typography{
+  color: red;
+}
+
+.user-item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
