@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1",
+    "name": "MKO",
+    "icon": "",
+    "images": [],
+    "description": "Это описание пространства МКО"
+  },
+  {
+    "id": "2",
+    "name": "IASPerm",
+    "icon": "",
+    "images": [],
+    "description": "Это описание пространства IASPerm"
+  },
+  {
+    "id": "3",
+    "name": "MKOOS",
+    "icon": "",
+    "images": [],
+    "description": "Это описание пространства MKOOS"
+  },
+  {
+    "id": "4",
+    "name": "ISAFSB",
+    "icon": "static/badge.svg",
+    "images": [
+      "static/carousel/img1.svg",
+      "static/carousel/img2.svg"
+    ],
+    "description": "Это описание пространства МКО"
+  }
+]

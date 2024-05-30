@@ -1,0 +1,21 @@
+[
+  {
+    "username": "root",
+    "password": "root",
+    "roles": [
+      "ADMIN_SCOPES",
+      "ADMIN",
+      "USER",
+      "ROOT"
+    ]
+  },
+  {
+    "username": "admin",
+    "password": "admin",
+    "roles": [
+      "ADMIN_SCOPES",
+      "ADMIN",
+      "USER"
+    ]
+  }
+]
